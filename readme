@@ -1,0 +1,32 @@
+To compile the game, you need to place both 'Makefile' and 3main.cpp' in same directory and run command 'make' as given below:
+local@localmachine $> make
+Then to start the game use the command given below:
+local@localmachine $> ./game
+
+
+Now the game starts with 30% of tiles moving on the grid and humanoid is placed we can have all type of views.
+
+
+Controls :
+
+A] To Move Robot:
+
+		CONTROL			ACTION
+		  
+		  A			Rotate Clockwise by 10 degree(humanoid's perspective)
+		  D			Rotate Anti-Clockwise by 10 degree( humanoid's perspective)
+		  W			Move forward in the direction humanoid is seeing.
+		  S			Move backward opposite to direction humanoid is seeing.
+		  J 			Jump.
+
+B] Camera Controls:
+
+		CONTROL			ACTION
+
+		  F			Toggles between First Person View and Third Person View.
+		  O 			Tower View. (Fixed).
+		  H			Switch to Helicopter View.
+		  T			Switch to Tile View
+
+Features:
+	Till now, the humanoid can move in any direction and has physical characteristics like inertia and gravity, all views, spotlight, textures.  
